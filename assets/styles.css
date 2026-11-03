@@ -35,6 +35,7 @@ main img,.lightbox img,.hero,.page-hero.with-image{-webkit-user-select:none;user
 .rights-toast.visible{opacity:1;visibility:visible;transform:translate(-50%,0)}
 @media(max-width:680px){.feature-story-grid{grid-template-columns:1fr;gap:19px}.featured-collections{padding:55px 0 60px}.feature-story-content{padding:22px}.feature-story-content h3{font-size:27px}.contact-email-button{width:100%;font-size:10px;letter-spacing:.07em}.collection-site-link{align-items:start;flex-direction:column}.gallery-rights-note{margin:0 0 18px}}
 
-/* Keep the homepage photography credit centered on one line below the tagline. */
-.hero .hero-tagline .hero-credit{display:block;width:100%;margin-top:8px;text-align:center;white-space:nowrap;font-size:clamp(12px,1.4vw,18px);line-height:1.55}
-@media(max-width:680px){.hero .hero-tagline .hero-credit{font-size:clamp(11px,3.5vw,15px)}}
+/* Homepage: center the photography byline on its own unbroken line below the tagline. */
+.hero .hero-tagline{margin-bottom:0}
+.hero .hero-credit{display:block;max-width:560px;width:100%;margin:4px 0 32px;text-align:center;white-space:nowrap;font:400 clamp(12px,1.4vw,18px)/1.55 var(--serif);color:#f2f2f0}
+@media(max-width:680px){.hero .hero-credit{font-size:clamp(11px,3.2vw,15px);margin-top:6px;margin-bottom:28px}}
