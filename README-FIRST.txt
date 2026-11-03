@@ -1,53 +1,52 @@
-SNS PHOTOS — GITHUB PAGES PREVIEW (Version 1)
-===================================================
-This working website uses real photographs from your connected sspirz Google Drive.
-The current Google Sites site and your GoDaddy DNS settings were NOT changed.
+SNS PHOTOS — REVISION 2 (November 3, 2026)
+================================================
 
-QUICK PREVIEW — ON YOUR OWN COMPUTER
-1. Unzip the SNSPhotos_GitHub_Preview.zip package.
-2. Open the folder and double-click index.html.
-3. Browse Home, Portfolio, About, Contact and the six interactive galleries.
-Note: You need internet access only for the optional web fonts and the Instagram link; the photographs and website files are local.
+Your GitHub Pages preview repository:
+https://github.com/snsphotos/snsphotos-preview
+Live preview (after GitHub finishes publishing):
+https://snsphotos.github.io/snsphotos-preview/
 
-PUT IT ON GITHUB PAGES (WITHOUT CHANGING SNSPHOTOS.COM)
-1. Sign in to GitHub (github.com).
-2. Click + > New repository. Name it: snsphotos-preview (or another name you choose).
-3. Make the repository Public (required for free GitHub Pages on a GitHub Free account).
-4. Create the repository. Choose Add file > Upload files.
-5. Upload ALL THE CONTENTS of this unzipped folder (index.html, portfolio.html,
-   gallery-*.html, images folder, assets folder, etc.). The index.html file
-   MUST sit in the top/root of the repository, NOT inside an extra folder.
-   Tip: GitHub's browser upload may struggle with uploading a large folder;
-   GitHub Desktop is usually easier: File > Add local repository / Clone,
-   copy all files into the local repo, commit and push.
-6. Under repository Settings > Pages, choose Deploy from a branch.
-   Branch: main | Folder: /(root). Save.
-7. After a few minutes, open the preview address GitHub shows, usually:
-   https://YOUR-USERNAME.github.io/snsphotos-preview/
-8. Test the desktop and mobile views before we even consider your domain.
+UPDATE EXISTING REPOSITORY (EASIEST)
+1. Download SNSPhotos_Rev2_GitHub_Update.zip and extract it.
+2. Go to your existing repository: https://github.com/snsphotos/snsphotos-preview
+3. Click Add file > Upload files.
+4. Open the EXTRACTED update folder and drag its CONTENTS into GitHub's upload area.
+   Drag all files and folders inside it, not the ZIP itself and not its enclosing folder.
+5. GitHub should show changes to existing HTML/CSS/JS files and new image files.
+6. Scroll down, enter commit message "SNS Photos: new galleries and photo updates", and commit.
+7. Wait a minute or two, then reload the preview. On mobile, refresh to clear cached CSS.
 
-WHAT IS READY
-- Responsive homepage with your original SNS logo and actual sunset photograph.
-- Six gallery categories; horizontal thumbnail strip and full-screen lightbox.
-- Arrow keys, swipe gestures, larger-image view and optional View All grid.
-- About and Contact pages, privacy-safe initial Instagram contact link.
-- Original Drive names mapped in photo-shortlist.csv for easy replacement.
-- Optimized WebP photographs; no stock or AI-generated site images.
+The update ZIP includes ONLY changed pages/assets and NEW photos, so your existing
+unchanged files remain in place. Do NOT delete your repository or create a new one.
 
-WHAT IS INTENTIONALLY NOT DONE
-- No custom domain (CNAME file) or GoDaddy changes. Your old website stays live.
-- No email form or unverified contact email; Instagram is connected instead.
-- Search engines told not to index the preview (robots noindex,nofollow).
-  Once we're happy and ready to launch, remove that meta robots tag from the HTML
-  pages, set the custom domain in GitHub Pages, verify DNS and SSL, then launch.
-- Photos shown are a curated FIRST PASS; we can adjust after you see the site.
-- No checkout/print store yet, only print inquiries.
+OPTIONAL CLEANUP (OLD REJECTED PHOTO FILES)
+The rejected images are no longer referenced by any gallery, but their OLD files
+may remain in the public GitHub repository after the update. To fully remove them,
+delete these four files in GitHub's images folder (one by one):
+- images/last-beach-day.webp
+- images/last-beach-day-thumb.webp
+- images/garden-snail.webp
+- images/garden-snail-thumb.webp
 
-EASY FUTURE PHOTO UPDATES
-- Each gallery is a simple HTML file (gallery-landscapes.html, etc.).
-- images/ contains one full-size optimized image and one thumbnail per photograph.
-- photo-shortlist.csv keeps the original source photo filename for each image.
-- To swap photos or change captions we'll prepare another updated ZIP together.
+The full backup ZIP is a complete version of the site WITHOUT those four files.
+Do not upload the full backup ZIP to the existing repository; use the update ZIP.
 
-COPYRIGHT
-All photographs remain copyright Stacey Noelani Spirz. Use of photos is for her personal portfolio site only.
+WHAT CHANGED
+- Lety RoGu: 6 specific original photos and link to iamkhushi.com
+- ZEOS Detailing: 8 specific original photos and link to zeosdetailing.com
+- Both collections featured inside Portraits & Candid
+- Additional images in landscapes, events, botany, and wildlife
+- Removed rejected beach and snail photos from all gallery pages
+- About page now shows Stacey's own portrait
+- Contact page: clickable sspirz@gmail.com; no phone number
+- Right-click and drag-save deterrents on gallery images; usage notice
+- Touchscreen swipe on the main gallery image, plus existing arrows and thumbnails
+- Full-resolution originals are NOT included; new site photos are optimized WebP
+
+IMPORTANT COPYRIGHT LIMITATION
+No website can completely prevent copying images, screenshots, or downloads
+through browser developer tools. These changes discourage casual saving and
+make usage requirements clear. Keep your full-resolution originals offline.
+
+YOUR CURRENT SNSPhotos.com / GOOGLE SITES SITE IS UNCHANGED.
+Do not change GoDaddy DNS or the GitHub custom domain until you approve the preview.
