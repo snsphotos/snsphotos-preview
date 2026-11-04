@@ -84,3 +84,9 @@ main img,.lightbox img,.hero,.page-hero.with-image{-webkit-user-select:none;user
 .forms-shortcut a{color:var(--accentDeep);font-weight:700;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:900px){.mobile-toggle{display:block}.nav{position:absolute;top:94px;left:0;right:0;background:#fff;box-shadow:0 18px 20px #0001;display:none;flex-direction:column;gap:0;align-items:stretch;padding:15px 24px 22px}.nav.open{display:flex}.nav a{padding:13px 0}.nav a.active:after{left:0;right:auto;width:39px}}
 @media(max-width:680px){.nav{top:77px}.footer-links{justify-content:flex-start}.notary-feature{padding:58px 0}.notary-feature-inner,.published-teaser-inner{flex-direction:column;align-items:flex-start;gap:25px}.notary-feature .button,.published-teaser .button{width:100%}.publication-card{grid-template-columns:1fr}.publication-cover{min-height:225px}.publication-details{padding:28px 24px}.publication-pdf{display:block;margin:15px 0 0}.forms-grid{grid-template-columns:1fr;gap:22px}.form-card:last-child{grid-column:auto;justify-self:stretch;width:100%}.form-preview{height:320px}.form-card-content{padding:23px}.form-card-content h2{font-size:26px}}
+
+/* About page: smaller, uncropped personal portrait */
+.about-story{grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:clamp(35px,6vw,85px)}
+.about-story .about-portrait{display:block;width:100%;max-width:270px;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center;margin:0 auto}
+@media(max-width:850px){.about-story{grid-template-columns:1fr;gap:32px}.about-story .about-portrait{max-width:230px}}
+@media(max-width:680px){.about-story .about-portrait{max-width:205px}}
